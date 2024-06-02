@@ -1,0 +1,258 @@
+/* Reset some basic elements */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e19cc3;
+    color: #333;
+    padding: 20px;
+}
+
+/* Navigation styles */
+.navlist {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: #333;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.navlist li {
+    margin: 0 15px;
+}
+
+.navlist a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navlist a.active {
+    border-bottom: 2px solid #fff;
+}
+
+/* Left container styles */
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.icons {
+    margin-bottom: 10px;
+}
+
+.icons i {
+    margin: 0 5px;
+    color: #333;
+    font-size: 20px;
+}
+
+.content {
+    max-width: 800px;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.profile-image.large {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.intro-text {
+    text-align: left;
+}
+
+.intro {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.intro span {
+    color: #e8491d;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.detail {
+    margin-bottom: 20px;
+}
+
+.btn-container button {
+    background: #e8491d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn-container button:hover {
+    background: #333;
+}
+
+/* Section styles */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#about .profile-image {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.skills-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-icons li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.skills-icons li i {
+    font-size: 48px; /* Adjust the icon size as needed */
+}
+
+.skills-icons li span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+/* Project styles */
+.project {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .navlist {
+        flex-direction: column;
+    }
+    .navlist li {
+        margin: 5px 0;
+    }
+
+    .intro-container {
+        flex-direction: column;
+    }
+
+    .profile-image.large {
+        margin: 10px 0;
+    }
+}
+/* Social media icon colors */
+.facebook-icon {
+    color: #3b5998;
+}
+
+.linkedin-icon {
+    color: #0e76a8;
+}
+
+.twitter-icon {
+    color: #1da1f2;
+}
+
+.codepen-icon {
+    color: #000000;
+}
+
+.instagram-icon {
+    color: #e1306c;
+}
+
+/* Additional styling for social media icons */
+.icons i {
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.icons i:hover {
+    color: #555;
+}
+/* Contact section */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#html span, #css span {
+    font-size: 350px; /* Desired font size */
+}
